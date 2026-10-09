@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Portable builds & packages (published via Releases, not stored in git)
+FileOrganizer_Portable_App*/
+*.zip
+
+# Local test / QA leftovers
+qa_*.png
+qa_*.py
+check_tmp.txt
+
+# Editors & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
